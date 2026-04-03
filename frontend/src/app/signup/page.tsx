@@ -36,7 +36,7 @@ export default function SignupPage() {
       <UiCard className="w-full max-w-md" padding="p-8 sm:p-10">
         <div className="text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-teal-700 dark:text-teal-400">
-            Join EduBook
+            Join TutorFlow
           </p>
           <h1 className="mt-2 text-2xl font-semibold tracking-tight text-stone-900 dark:text-stone-50">
             Sign up

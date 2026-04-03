@@ -48,7 +48,7 @@ export async function createGoogleCalendarEvent(sessionId: string) {
 
     const event = {
       summary: `🎓 Tutoring Session: ${session.subject}`,
-      description: `EduBook Session with ${session.student.full_name}. \nView in Dashboard: ${process.env.FRONTEND_URL}/dashboard/sessions/${sessionId}`,
+      description: `TutorFlow Session with ${session.student.full_name}. \nView in Dashboard: ${process.env.FRONTEND_URL}/dashboard/sessions/${sessionId}`,
       start: {
         dateTime: startTime.toISOString(),
       },
@@ -58,7 +58,7 @@ export async function createGoogleCalendarEvent(sessionId: string) {
       // Optional: Add Google Meet link automatically
       conferenceData: {
         createRequest: {
-          requestId: `edubook_${sessionId}`,
+          requestId: `tutorflow_${sessionId}`,
           conferenceSolutionKey: { type: 'hangoutsMeet' },
         },
       },

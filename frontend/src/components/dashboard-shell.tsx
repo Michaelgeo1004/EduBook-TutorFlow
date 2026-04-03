@@ -23,9 +23,9 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
               className="flex items-center gap-2 font-semibold tracking-tight text-stone-900 dark:text-stone-50"
             >
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-teal-600 text-sm font-bold text-white shadow-sm">
-                E
+                T
               </span>
-              EduBook
+              TutorFlow
             </Link>
             <nav className="flex flex-wrap gap-1">
               {nav.map((item) => {

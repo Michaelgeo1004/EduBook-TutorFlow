@@ -85,7 +85,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (!getStoredToken()) return;
     const data = await api<{ user: User }>("/auth/me");
     setUser(data.user);
-    localStorage.setItem("edubook_user", JSON.stringify(data.user));
+    localStorage.setItem("tutorflow_user", JSON.stringify(data.user));
   }, []);
 
   const value = useMemo(

@@ -15,13 +15,13 @@ const signOpts = { expiresIn: '7d' };
 
 const student = {
   userId: '11111111-1111-1111-1111-111111111101',
-  email: 'student.demo@edubook.test',
+  email: 'student.demo@tutorflow.test',
   role: 'student',
 };
 
 const tutor = {
   userId: '11111111-1111-1111-1111-111111111102',
-  email: 'tutor.demo@edubook.test',
+  email: 'tutor.demo@tutorflow.test',
   role: 'tutor',
 };
 

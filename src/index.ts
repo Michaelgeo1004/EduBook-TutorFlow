@@ -37,6 +37,6 @@ app.use('/calendar', calendarRoutes);
 
 const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => {
-  console.log(`EduBook API running on http://localhost:${PORT}`);
+  console.log(`TutorFlow API running on http://localhost:${PORT}`);
   console.log('Socket.io ready');
 });

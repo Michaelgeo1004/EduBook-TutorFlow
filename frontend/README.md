@@ -1,4 +1,4 @@
-# EduBook frontend (Next.js)
+# TutorFlow frontend (Next.js)
 
 ## Plan (what this app does)
 

@@ -8,8 +8,8 @@ export type User = {
   created_at?: string;
 };
 
-const TOKEN_KEY = "edubook_token";
-const USER_KEY = "edubook_user";
+const TOKEN_KEY = "tutorflow_token";
+const USER_KEY = "tutorflow_user";
 
 export function getStoredToken(): string | null {
   if (typeof window === "undefined") return null;

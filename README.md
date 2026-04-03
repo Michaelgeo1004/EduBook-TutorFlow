@@ -1,6 +1,6 @@
-# EduBook — Professional Tutor Marketplace Platform
+# TutorFlow — Professional Tutor Marketplace Platform
 
-A robust, enterprise-grade tutoring platform architecture built for scalability and real-time engagement. This repository contains the complete full-stack implementation mirroring the Edukko platform, featuring automated scheduling, secure payments, and AI-driven session recaps.
+A robust, enterprise-grade tutoring platform architecture built for scalability and real-time engagement. This repository contains the complete full-stack implementation of a high-performance tutoring platform, featuring automated scheduling, secure payments, and AI-driven session recaps.
 
 ---
 
@@ -58,8 +58,8 @@ flowchart TD
 
 ### 1. Installation
 ```bash
-git clone https://github.com/Michaelgeo1004/EduBook-Scaling-Edukko.git
-cd EduBook-Scaling-Edukko
+git clone https://github.com/Michaelgeo1004/TutorFlow-Core.git
+cd TutorFlow-Core
 npm install
 cd frontend && npm install
 ```
@@ -110,4 +110,4 @@ npm run dev
 
 ## 🎯 Project Roadmap & Conclusion
 
-This project mirrors the core architecture of the Edukko platform, taking it from an MVP to a launch-ready environment. The focus is on robust scheduling, financial safety, and AI-driven insights for the future of EdTech.
+This project mirrors a high-performance architecture for a modern tutoring platform, taking it from an MVP to a launch-ready environment. The focus is on robust scheduling, financial safety, and AI-driven insights for the future of EdTech.

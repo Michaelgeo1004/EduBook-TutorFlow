@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EduBook — Tutor sessions",
+  title: "TutorFlow — Tutor sessions",
   description: "Book sessions, pay with Stripe, chat in real time",
 };
 

@@ -1,5 +1,5 @@
 -- ============================================
--- EDUBOOK - Supabase PostgreSQL Schema
+-- TUTORFLOW - Supabase PostgreSQL Schema
 -- ============================================
 
 -- USERS TABLE (students & tutors)
